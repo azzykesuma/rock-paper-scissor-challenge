@@ -25,7 +25,6 @@ const GameMatch = () => {
             ? "md:grid-cols-3"
             : "md:grid-cols-2 md:grid-rows-2"
         }`}
-        layout
         transition={{ duration: 0.3 }}
       >
 

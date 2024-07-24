@@ -19,7 +19,6 @@ const SelectedIcon = ({
 }: selectedPlayerChoiceProps) => {
   const { houseChoice, playerChoice } = useContext(GameStatus);
   const resultText = DetermineWinner(playerChoice, houseChoice);
-  console.log("resultText", resultText);
 
   return (
     <div className={`relative mx-auto ${className}`}>
